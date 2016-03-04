@@ -1,5 +1,6 @@
 ---
 layout: consulting
+title: Consulting help for building better web apps, faster
 permalink: /consulting/
 ---
 
