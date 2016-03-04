@@ -30,6 +30,10 @@ html body {
   a, a:hover, a:visited { color: $link-color; }
   a:hover { color: lighten($link-color, 5%); }
   hr { border-color: lighten($silver, 10%); }
+}
+
+main {
+
   ul {
     list-style-type: disc;
     li {
@@ -37,6 +41,8 @@ html body {
       margin-bottom: .4rem;
     }
   }
+
+
 }
 
 .container { max-width: 90.0rem; }
@@ -67,6 +73,7 @@ footer {
   text-align: center;
   ul li {
     display: inline-block;
+    margin: 1rem;
     svg {
       path {
         fill: $silver;
