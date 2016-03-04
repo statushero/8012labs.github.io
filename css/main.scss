@@ -1,0 +1,84 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+// Colors
+$belize-hole: #2980b9;
+$gray: #5a6465;
+$clouds: #ecf0f1;
+$silver: #bdc3c7;
+$pomegranate: #c0392b;
+$nephritis: #c0392b;
+$green-sea: #16a085;
+$nephritis: #27ae60;
+
+$link-color: $nephritis;
+
+// Type
+$font-sans-serif: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$font-serif: "Merriweather", "Georgia", "Times", serif;
+$font-brand: "Oswald", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+html body {
+  color: darken($gray, 5%);
+  background: #fff;
+  font-family: $font-serif;
+  font-size: 2.0em;
+  font-weight: 300;
+  a, a:hover, a:visited { color: $link-color; }
+  a:hover { color: lighten($link-color, 5%); }
+  hr { border-color: lighten($silver, 10%); }
+  ul {
+    list-style-type: disc;
+    li {
+      margin-left: 1.4rem;
+      margin-bottom: .4rem;
+    }
+  }
+}
+
+.container { max-width: 90.0rem; }
+
+header {
+  margin-top: 5rem;
+  text-align: center;
+  h1 {
+    display: inline-block;
+    position: relative;
+    font-family: $font-brand;
+    color: darken($silver, 25%);
+    font-weight: 400;
+    line-height: 7rem;
+    padding-left: 8rem;
+    svg {
+      left: 0;
+      top: 0;
+      position: absolute;
+      width: 7rem;
+      height: 7rem;
+      rect { fill: $silver; }
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  ul li {
+    display: inline-block;
+    svg {
+      path {
+        fill: $silver;
+      }
+      width: 3rem;
+    }
+    a:hover {
+      svg {
+        path {
+          fill: $link-color;
+        }
+      }
+    }
+  }
+}
