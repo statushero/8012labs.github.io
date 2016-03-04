@@ -15,6 +15,7 @@ $green-sea: #16a085;
 $nephritis: #27ae60;
 
 $link-color: $nephritis;
+$border-color: lighten($silver, 10%);
 
 // Type
 $font-sans-serif: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -29,11 +30,10 @@ html body {
   font-weight: 300;
   a, a:hover, a:visited { color: $link-color; }
   a:hover { color: lighten($link-color, 5%); }
-  hr { border-color: lighten($silver, 10%); }
+  hr { border-color: $border-color; }
 }
 
 main {
-
   ul {
     list-style-type: disc;
     li {
@@ -41,8 +41,24 @@ main {
       margin-bottom: .4rem;
     }
   }
-
-
+  &.consulting {
+    h2 {
+      margin-top: 6rem;
+      margin-bottom: 4rem;
+      padding-bottom: 2rem;
+      font-weight: 400;
+      text-align: center;
+      border-bottom: 1px solid $border-color;
+    }
+    img {
+      border-radius: 50%;
+      float: right;
+      width: 20%;
+      height: 20%;
+      padding: 0;
+      margin: 0 0 4% 4%;
+    }
+  }
 }
 
 .container { max-width: 90.0rem; }
@@ -53,7 +69,6 @@ header {
   h1 {
     display: inline-block;
     position: relative;
-    font-family: $font-brand;
     color: darken($silver, 25%);
     font-weight: 400;
     line-height: 7rem;
@@ -88,4 +103,19 @@ footer {
       }
     }
   }
+  &.consulting {
+
+    ul li {
+      a {
+        svg { height: 3rem; }
+        line-height: 3rem;
+        font-size: 3rem;
+        color: $silver;
+      }
+    }
+  }
+}
+
+.brand {
+  font-family: $font-brand;
 }
