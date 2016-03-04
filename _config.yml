@@ -1,7 +1,7 @@
 title: 8012 Labs
 email: hello@8012labs.com
 description: >
-  8012 Labs is a software firm based in Brooklyn, New York
+  8012 Labs (pronounced "eighty twelve labs") is a software development firm based in Brooklyn, New York.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://8012labs.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
