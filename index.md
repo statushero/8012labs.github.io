@@ -9,7 +9,7 @@ We build and operate web applications, including:
 - [Status Hero](https://statushero.com) – Lightweight Goal Tracking and Check-ins for Software Teams
 - [Poker Charts](https://pokercharts.com) – Poker Tracking and Analysis Software
 - [Ski Juice](http://skijuice.com) – Ski and Snowboard Conditions, Forecasts and Live Skier Photos
-- [Slash TZ](http://slashtz) – Natural Language Time Zone Converter and Calculator
+- [Slash TZ](http://slashtz.com) – Natural Language Time Zone Converter and Calculator
 
 We also offer consulting services to software product teams building web applications. [More on that here](/codebasemd).
 
