@@ -8,7 +8,7 @@ permalink: /consulting/
 
 ![Henry Poydar](/images/henry-poydar.png)
 
-Hi! I'm Henry Poydar. In addition to running [8012 Labs](/), I help web application product teams organize their Rails codebase and implement proven development and deployment practices.
+Hi, I'm Henry Poydar. In addition to running [8012 Labs](/), I help web application product teams organize their Rails codebase and implement proven development and deployment practices.
 
 All of the work I do with teams optimizes for development velocity, quality, efficient product management, performance, and continuous delivery.
 
