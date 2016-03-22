@@ -8,8 +8,8 @@ We build and operate web applications, including:
 
 - [![Status Hero logo](/images/logos/status-hero-mark.svg) **Status Hero**](https://statushero.com) – Lightweight, daily goal tracking and check-ins for software teams
 - [![Poker Charts logo](/images/logos/poker-charts-mark.svg) **Poker Charts**](https://pokercharts.com) – Tracking and analysis software for poker players
-- [![Ski Juice logo](/images/logos/ski-juice-mark.svg) **Ski Juice**](http://skijuice.com) – Ski and snowboard conditions, forecasts and live Instagram photos
-- [![Slash TZ logo](/images/logos/slash-tz-mark.svg) **Slash TZ**](http://slashtz.com) – Natural language time zone converter and calculator
+- [![Ski Juice logo](/images/logos/ski-juice-mark.svg) **Ski Juice**](https://skijuice.com) – Ski and snowboard conditions, forecasts and live Instagram photos
+- [![Slash TZ logo](/images/logos/slash-tz-mark.svg) **Slash TZ**](https://slashtz.com) – Natural language time zone converter and calculator
 
 We also offer consulting services to software product teams building web applications. [More on that here](/consulting).
 
