@@ -15,4 +15,5 @@ exclude:
   - Rakefile
   - README.md
   - vendor
-
+gems:
+  - jekyll-sitemap
