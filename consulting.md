@@ -2,6 +2,7 @@
 layout: consulting
 title: Consulting help for building better web apps, faster
 permalink: /consulting/
+excerpt: All of the work I do with teams optimizes for development velocity, quality, efficient product management, performance, and continuous delivery.
 ---
 
 ## Build better web apps, faster.
