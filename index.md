@@ -11,6 +11,4 @@ We build and operate web applications, including:
 - [![Ski Juice logo](/images/logos/ski-juice-mark.svg) **Ski Juice**](https://skijuice.com) – Ski and snowboard conditions, forecasts and live Instagram photos
 - [![Slash TZ logo](/images/logos/slash-tz-mark.svg) **Slash TZ**](https://slashtz.com) – Natural language time zone converter and calculator
 
-We also offer consulting services to software product teams building web applications. [More on that here](/consulting).
-
 Not so long ago, computers read processing instructions from stiff pieces of paper called ["punched" cards](https://en.wikipedia.org/wiki/Punched_card). The cards have 80 columns of numbers with 12 "punch" locations in each column. We named our firm around that bit of nostalgic simplicity.
