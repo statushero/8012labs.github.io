@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.4.1'
 
 gem 'jekyll', '~> 3.1'
-gem 'jekyll-sitemap', '~> 0.10.0'
-gem 'html-proofer', '~> 2.6', '>= 2.6.4'
-gem 'rake', '~> 11.1'
+gem 'jekyll-sitemap', '~> 1.1'
+gem 'html-proofer', '~> 3.6'
+gem 'rake', '~> 12.0'
