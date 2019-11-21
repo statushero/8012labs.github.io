@@ -5,17 +5,11 @@
 
 
 // Colors
-$belize-hole: #2980b9;
-$gray: #5a6465;
-$clouds: #ecf0f1;
-$silver: #bdc3c7;
-$pomegranate: #c0392b;
-$nephritis: #c0392b;
-$green-sea: #16a085;
-$nephritis: #27ae60;
 
-$link-color: $belize-hole;
-$border-color: lighten($silver, 10%);
+
+
+$link-color: #007df7;
+$border-color: #B8C2CC;
 
 // Type
 $font-sans-serif: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -23,7 +17,7 @@ $font-serif: "Merriweather", "Georgia", "Times", serif;
 $font-brand: "Oswald", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
 html body {
-  color: darken($gray, 5%);
+  color: #22292F;
   background: #fff;
   font-family: $font-serif;
   font-size: 2.0em;
@@ -39,9 +33,9 @@ header {
   margin-top: 5rem;
   text-align: left;
   h1 {
+    color: $border-color;
     display: inline-block;
     position: relative;
-    color: darken($silver, 25%);
     font-weight: 400;
     line-height: 7rem;
     padding-left: 7rem;
@@ -68,7 +62,7 @@ main {
       padding-left: 3.6em;
       margin-bottom: 0.8em;
       padding-bottom: 0.8em;
-      border-bottom: 1px solid lighten($border-color, 7%);
+      border-bottom: 1px solid $border-color;
       font-style: normal;
       strong {
         font-style: normal;
@@ -111,7 +105,7 @@ footer {
     margin: 1rem;
     svg {
       path {
-        fill: $silver;
+        fill: $border-color;
       }
       width: 3rem;
     }
@@ -130,7 +124,7 @@ footer {
         img { height: 3rem; }
         line-height: 3rem;
         font-size: 3rem;
-        color: $silver;
+        color: $border-color;
       }
     }
   }
