@@ -1,5 +1,5 @@
-source 'https://rubygems.org'
-ruby '2.6.5'
+source "https://rubygems.org"
+ruby "2.6.6"
 
-gem 'github-pages', '~> 202'
-gem 'html-proofer', '~> 3.14', '>= 3.14.1'
+gem "github-pages", "~> 204"
+gem "html-proofer", "~> 3.15", ">= 3.15.3"
